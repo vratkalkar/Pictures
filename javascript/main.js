@@ -8,3 +8,10 @@ $.ajax({
         success: function(data) {...}
     });
 });
+
+function(data) {
+for (var i = 0; i < 10; i++) {
+$(".pics").append("<a target='_blank' href='" + data.data[i].link +
+"'><img src='" + data.data[i].images.low_resolution.url +"'></img></a>");
+}
+}
