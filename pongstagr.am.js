@@ -32,7 +32,7 @@
     // HTML OPTIONS
     // ===========================
     , preload:          "spinner"
-    , button:           "btn btn-default col-lg-12"
+    , button:           "btn btn-default"
     , buttontext:       "View More"
     , column:           "col-xs-12 col-sm-3 col-md-3 col-lg-3"
     , likeicon:         "glyphicon glyphicon-plus"
