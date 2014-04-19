@@ -1,24 +1,16 @@
 <!doctype html>
 <html>
 <head>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0;'>
     <title >PhotoSite</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' href='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='pongstagr.am.min.css'>
     <link rel='stylesheet' href='styles/main.css'>
 
 </head>
 <body>
 
-<ul id="instagram"></ul>
-
-<script>
-$("#instagram").jqinstapics({
-  "user_id": "3364414",
-  "access_token": "3364414.691e182.dc90822dd2c34d5aaf4cccae7bbf4974",
-  "count": 5
-});
-</script>
-
+<div id="selector"></div>
 
 
 
@@ -28,7 +20,18 @@ $("#instagram").jqinstapics({
 
     <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js'></script>
     <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js'></script>
-    <script src="jqinstapics.js"></script>
+    <script src="pongstagr.am.min.js"></script>
     <script src='script.js'></script>
+
+    <script>
+  $(document).ready(function () {
+
+    $('#selector').pongstgrm({
+      accessId:     '3364414',
+      accessToken:  '3364414.691e182.dc90822dd2c34d5aaf4cccae7bbf4974'
+    });
+
+  });
+</script>
 </body>
 </html>
