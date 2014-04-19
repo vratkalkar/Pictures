@@ -23,7 +23,7 @@ body{
 .btn,
 .btn-default {
   border-radius: none;
-  width:100%;
+  width:100%
 }
 
 body {
@@ -31,3 +31,14 @@ body {
   width: 98%;
 }
 
+.nav,
+.navbar-nav {
+  font-size: 16px;
+}
+
+.navbar, 
+.navbar-default,
+.navbar-fixed-top {
+
+  background-color: black;
+}
